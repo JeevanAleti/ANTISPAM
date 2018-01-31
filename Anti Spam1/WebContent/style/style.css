@@ -1,0 +1,51 @@
+
+body{
+	background:url('..images/paint.jpg') #9f9 repeat-x;
+	margin:0px;
+	padding:0px
+}
+#headdiv{
+	width:1024px;
+	margin:0 auto
+}
+#menudiv{
+	
+	background:white
+}
+#title{
+	font-family:'Bauhaus 93';
+	font-size:100px;
+	text-align:center;
+	margin:0px; padding:0px
+}
+#subtitle{
+	font-family:'Georgia';
+	font-size:30px;
+	text-align:center;
+	margin:0px; padding:0px
+	
+}
+.navlist{
+	display:inline-block;
+}
+.navitem{
+	display:inline-block;
+}
+.navlistitem{
+	padding:10px;
+	padding-left:50px;
+	padding-right:50px;
+	border:1px outset black;
+	border-radius:50px;
+	background:white;
+	text-decoration:none;
+	color:red; font-size:22px;
+	font-family:'monotype corsiva';
+	font-weight:bold;
+}
+.navlistitem:hover{
+	border:1px inset white;
+	color:white;
+	background:red;
+	
+}
